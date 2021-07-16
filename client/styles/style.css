@@ -1,0 +1,116 @@
+html {
+    font-family:Arial, sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+footer{
+    background-color: #474544;
+    padding: 20px;
+    display: block;
+    text-align: left;
+}
+
+section {
+    background: #474544;
+    margin: 100px 300px 100px 300px;
+    padding: 30px;
+}
+
+form {
+    padding: 37.5px;
+}
+
+/*Titel des Formulars*/
+h1 {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 7px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*Titel der Eingabefelder*/
+p {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+a {
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+label {
+    color: #ffffff;
+}
+
+/*Icon*/
+.icon_wrapper {
+    margin: 50px auto 0;
+    width: 100%;
+}
+
+.icon {
+    display: block;
+    fill: #ffffff;
+    height: 50px;
+    margin: 0 auto;
+    width: 50px;
+}
+
+/*Einfüllfelder*/
+input{
+    margin: 0em 0 50px 0;
+}
+
+.underline {
+    background: none;
+    border: none;
+    border-bottom: solid 2px #ffffff;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-top: 14px;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+.auswahl{
+    margin-right: 80px;
+    padding-top: 14px;
+}
+
+/*Submit Button*/
+#submit-btn {
+    background: none;
+    border: solid 2px #ffffff;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family:Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    outline: none;
+    padding: 20px 35px;
+    margin-top: 20px;
+}
+
+#submit-btn:hover {
+    background: #ffffff;
+    color: #474544;
+}
